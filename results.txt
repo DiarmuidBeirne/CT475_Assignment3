@@ -1,0 +1,94 @@
+Test 1
+Confusion Matrix
+				LongEaredOwl				SnowyOwl				BarnOwl
+LongEaredOwl				18.0				0.0				0.0
+SnowyOwl				0.0				16.0				1.0
+BarnOwl				0.0				1.0				10.0
+Accuracy: 95.65217391304348%
+
+ 
+Test 2
+Confusion Matrix
+				LongEaredOwl				BarnOwl				SnowyOwl
+LongEaredOwl				20.0				0.0				0.0
+BarnOwl				0.0				11.0				0.0
+SnowyOwl				0.0				1.0				14.0
+Accuracy: 97.82608695652173%
+
+ 
+Test 3
+Confusion Matrix
+				BarnOwl				SnowyOwl				LongEaredOwl
+BarnOwl				10.0				1.0				0.0
+SnowyOwl				1.0				19.0				0.0
+LongEaredOwl				0.0				0.0				15.0
+Accuracy: 95.65217391304348%
+
+ 
+Test 4
+Confusion Matrix
+				SnowyOwl				BarnOwl				LongEaredOwl
+SnowyOwl				14.0				0.0				0.0
+BarnOwl				0.0				16.0				0.0
+LongEaredOwl				0.0				0.0				16.0
+Accuracy: 100.0%
+
+ 
+Test 5
+Confusion Matrix
+				LongEaredOwl				BarnOwl				SnowyOwl
+LongEaredOwl				14.0				0.0				0.0
+BarnOwl				0.0				15.0				3.0
+SnowyOwl				0.0				0.0				14.0
+Accuracy: 93.47826086956522%
+
+ 
+Test 6
+Confusion Matrix
+				BarnOwl				LongEaredOwl				SnowyOwl
+BarnOwl				17.0				0.0				1.0
+LongEaredOwl				0.0				11.0				0.0
+SnowyOwl				0.0				0.0				17.0
+Accuracy: 97.82608695652173%
+
+ 
+Test 7
+Confusion Matrix
+				SnowyOwl				LongEaredOwl				BarnOwl
+SnowyOwl				12.0				0.0				0.0
+LongEaredOwl				0.0				20.0				0.0
+BarnOwl				1.0				0.0				13.0
+Accuracy: 97.82608695652173%
+
+ 
+Test 8
+Confusion Matrix
+				BarnOwl				SnowyOwl				LongEaredOwl
+BarnOwl				15.0				1.0				0.0
+SnowyOwl				0.0				10.0				0.0
+LongEaredOwl				0.0				0.0				20.0
+Accuracy: 97.82608695652173%
+
+ 
+Test 9
+Confusion Matrix
+				SnowyOwl				BarnOwl				LongEaredOwl
+SnowyOwl				20.0				1.0				0.0
+BarnOwl				1.0				7.0				0.0
+LongEaredOwl				0.0				0.0				17.0
+Accuracy: 95.65217391304348%
+
+ 
+Test 10
+Confusion Matrix
+				SnowyOwl				LongEaredOwl				BarnOwl
+SnowyOwl				15.0				0.0				0.0
+LongEaredOwl				0.0				13.0				0.0
+BarnOwl				1.0				0.0				17.0
+Accuracy: 97.82608695652173%
+
+ 
+
+
+----------------------------
+Overall Accuracy = 96.95652173913044
