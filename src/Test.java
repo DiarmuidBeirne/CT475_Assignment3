@@ -118,21 +118,7 @@ public class Test {
         }
 
 
-       /* while (fileOutPath.equalsIgnoreCase("-1")){
-            System.out.print("Enter File Out  Path\t");
-            fileInPath = br.readLine(); //Prompt User for file path - Alan Devane
 
-            if (!fileWriter.checkFilePath()) //Check to see if file exists
-            {
-                System.out.println("File Path Incorrect!");
-                fileOutPath = "-1";
-
-            }
-            else{
-
-            }
-
-        }*/
 
         avgAccuracy = 0;
         String allResults = "";

@@ -35,7 +35,7 @@ public class LogisticRegressionAlgorithm {
             trainAlgorithm();
             ResultsToPrint = testAlgorithm();
 
-            System.out.println(ResultsToPrint);
+
 
 
 
@@ -180,7 +180,7 @@ public class LogisticRegressionAlgorithm {
             }
             if (printMode == 0) { //Check print mode - Alan Devane
                 //Adds the actual type, properties and predicted type to the result String -DB
-                resultString += (entry.toString() + "\t\tPredicted Type: " + predicType + "\t\t");
+                resultString += ("Actual " + entry.toString() + "\t\tPredicted Type: " + predicType + "\t\t");
                 if (entry.getType().toString().equalsIgnoreCase(predicType)) { //adds correct/incorrect to the String
                     resultString += "Prediction Correct\n";
                 } else {

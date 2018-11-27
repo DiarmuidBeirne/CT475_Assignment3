@@ -24,12 +24,5 @@ public class fileWriter {
         writer.close();
     }
 
-    public static boolean checkFilePath() {
-        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
 
-            return true;
-        } catch (IOException e) {
-            return false;
-        }
-    }
 }
