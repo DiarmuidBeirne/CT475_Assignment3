@@ -25,7 +25,7 @@ public class Entry {  //class to store data for one Entry - Diarmuid Beirne 1533
         String toReturn = "Type: " + type + "\t";
         for (int i = 0; i < properties.length; i++) {
             toReturn += properties[i];
-            toReturn += " ";
+            toReturn += "";
         }
         return toReturn;
     }

@@ -23,10 +23,10 @@ public class Test {
         fileReader csv;
         br = new BufferedReader(new InputStreamReader(System.in));
         while (fileInPath.equalsIgnoreCase("-1")){
-
+/*
             System.out.print("Enter File Path\t");
             fileInPath = br.readLine(); //Prompt User for file path - Alan Devane
-            csv = new fileReader(fileInPath); //Create a file reader object with file path - Alan Devane
+           */ csv = new fileReader("/Users/I342041/Documents/Github2.0/MachineLearningAssignment3/owls.csv");
             if (!csv.checkFilePath()) //Check to see if file exists
             {
                 System.out.println("File Path Incorrect!");
@@ -35,11 +35,12 @@ public class Test {
             }
             else{
                 testList = csv.readCSVFile();
+                fileInPath = "2";
             }
 
         }
 
-
+/*
         while (trainingSplit == -1) { //checks if the input is completed - Alan Devane
         System.out.print("Enter Training Split: \t"); //Prompt User for Training Split - Alan Devane
         try {
@@ -116,16 +117,17 @@ public class Test {
                 printMode = -1;
             }
         }
-
+*/
 
 
 
         avgAccuracy = 0;
         String allResults = "";
 
-        for (int i = 0; i < numTests; i++) {
+        for (int i = 0; i < 10; i++) {
             allResults += "Test " + (i + 1) + "\n";
-            LogisticRegressionAlgorithm testRun = new LogisticRegressionAlgorithm(trainingSplit,numIterations,learningRate, testList, printMode);
+//            LogisticRegressionAlgorithm testRun = new LogisticRegressionAlgorithm(trainingSplit,numIterations,learningRate, testList, printMode);
+            LogisticRegressionAlgorithm testRun = new LogisticRegressionAlgorithm(.66,10000,0.01, testList, 1);
             testRun.getTestAccuracy();
             avgAccuracy += testRun.getTestAccuracy();
             allResults += testRun.getResultsToPrint();
